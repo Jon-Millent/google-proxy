@@ -7,6 +7,7 @@
 * clone project and cd project (克隆项目，进入项目文件夹)
 * `npm install` or `cnpm install` (中国地区推荐使用cnpm安装)
 * `npm start` or `cd bin` and `pm2 start google-proxy`
+* Note: The default listens for port 3001
 
 ### about (关于)
 * 本程序供大家学习使用，勿用于商业和非法用途。

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Google proxy</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="/public/stylesheets/public.css">
+	<style type="text/css">
+		.millent{
+			position: relative;
+		}
+		.millent:after,.millent:before{
+			content: '';
+			position: absolute;
+			background-color: #ccc;
+			width: 60px;
+			top: 50%;
+			margin-top: 0.5px;
+			height: 1px;
+			left: 50%;
+		}
+		.millent:after{
+			margin-left: -150px;
+		}
+		.millent:before{
+			margin-left: 92px;
+		}
+	</style>
+</head>
+<body>
+	<div class="search-header">
+		<div class="logo pull-left">
+			<img src="/public/images/google.png" alt="">
+		</div>
+		<div class="search-wrap">
+			<input type="text" id="search-input">
+			<a href="javascript:;" class="search-button" id="search">搜索</a>
+		</div>
+	</div>
+
+	<div class="app" id="app" style="overflow-x: hidden;">
+		<p style="color: #E00;">本程序供大家学习使用，勿用于商业和非法用途。</p>
+		<p style="color: #666;">github <a href="http://www.github.com/">jon-millent</a></p>
+		<p style="color: #666;">project github <a href="https://github.com/Jon-Millent/google-proxy">google-proxy</a></p>
+		<p style="color: #333;text-align: center;" class="millent">create by jon-millent</p>
+	</div>
+	<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/public/javascripts/index.js"></script>
+</body>
+</html>

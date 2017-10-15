@@ -48,6 +48,9 @@
 
 	<div class="app" id="app" style="overflow-x: hidden;">
 		{{if !keyword}}
+			<p style="text-align: center;">
+				<img src="/public/images/google.png" style="max-width: 936px;width: 100%;padding: 0 10px;" alt="">
+			</p>
 			<p style="color: #666;text-align: center;">github <a href="http://www.github.com/">jon-millent</a></p>
 			<p style="color: #666;text-align: center;">project github <a href="https://github.com/Jon-Millent/google-proxy">google-proxy</a></p>
 			<p style="color: #E00;text-align: center;">本程序供大家学习使用，勿用于商业和非法用途。</p>

@@ -11,7 +11,7 @@ $(function() {
 	function render(){
 		var value = $('#search-input').val();
 		console.log(value)
-		$('#app').html("<p>加载中...</p>")
+		$('#app').html('<p style="text-align:center;">加载中...</p>')
 		if(!$.trim(value) || !canSend)
 			return
 		canSend = false;
@@ -27,7 +27,7 @@ $(function() {
 				canSend = true;
 			},
 			error: function(){
-				$('#app').html("<p>加载失败</p>")
+				$('#app').html('<p style="text-align:center;">加载失败，(js:我发的可能是个假ajax)。</p>')
 				canSend = true;
 			}
 		})

@@ -12,7 +12,7 @@ router.post('/getGoogle', function(req, res, next) {
 
 	var betaJSON = {
 		code: 200,
-		html: '<p style="font-size:40px;color:#333;">): 服务请求失败</p>'
+		html: '<p style="font-size:40px;color:#333;">): 加载失败，我可能是个假服务器。</p>'
 		
 	}
 	function getGoogleBase(keyword){

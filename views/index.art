@@ -26,6 +26,11 @@
 		.millent:before{
 			margin-left: 92px;
 		}
+
+		/* google hack */
+		.sfbgx,#searchform,#sfcnt,#top_nav,#navcnt{
+			display: none !important;
+		}
 	</style>
 </head>
 <body>

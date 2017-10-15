@@ -62,9 +62,6 @@ body{
 	line-height: 40px;
 	border-radius: 0 6px 6px 0;
 }
-.app{
-	padding: 0 10px;
-}
 
 @media screen and (max-width: 980px) {
 	.search-header{

@@ -8,5 +8,5 @@
 * `npm install` or `cnpm install` (中国地区推荐使用cnpm安装)
 * `npm start` or `cd bin` and `pm2 start google-proxy`
 
-## 本程序供大家学习使用，勿用于商业和非法用途。
-## MIT
+### 本程序供大家学习使用，勿用于商业和非法用途。
+### MIT

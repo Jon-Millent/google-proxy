@@ -1,23 +1,31 @@
 $(function() {
 	
-	$('#search').click(render);
+	$('#search').click(function(){
+		$('.search-wrap').submit();
+	});
 	$('#search-input').keydown(function(e){
 		if(e.keyCode == '13')
-			render();
+			$('.search-wrap').submit();
 	});
 
 	var canSend = true;
 
-	function render(){
+	function render(keyword){
 		var value = $('#search-input').val();
-		console.log(value)
+
+		if(artTemplate.keyword){
+			$('#search-input').val(value = artTemplate.keyword);
+			artTemplate.keyword = '';
+		}
+
 		$('#app').html('<p style="text-align:center;">加载中...</p>')
+
 		if(!$.trim(value) || !canSend)
 			return
 		canSend = false;
 
 		$.ajax({
-			type: 'POST',
+			type: 'GET',
 			url: '/getGoogle',
 			data: {
 				keyword: encodeURI(value)
@@ -31,6 +39,8 @@ $(function() {
 				canSend = true;
 			}
 		})
-
+	}
+	if(artTemplate.keyword){
+		render();
 	}
 })

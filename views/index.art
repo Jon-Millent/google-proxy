@@ -36,21 +36,30 @@
 <body>
 	<div class="search-header">
 		<div class="logo pull-left">
-			<img src="/public/images/google.png" alt="">
+			<a href="/">
+				<img src="/public/images/google.png" alt="">
+			</a>
 		</div>
-		<div class="search-wrap">
-			<input type="text" id="search-input">
+		<form class="search-wrap" action="/search">
+			<input type="text" id="search-input" name="q">
 			<a href="javascript:;" class="search-button" id="search">搜索</a>
-		</div>
+		</form>
 	</div>
 
 	<div class="app" id="app" style="overflow-x: hidden;">
-		<p style="color: #666;text-align: center;">github <a href="http://www.github.com/">jon-millent</a></p>
-		<p style="color: #666;text-align: center;">project github <a href="https://github.com/Jon-Millent/google-proxy">google-proxy</a></p>
-		<p style="color: #E00;text-align: center;">本程序供大家学习使用，勿用于商业和非法用途。</p>
-		<p style="color: #333;text-align: center;" class="millent">create by jon-millent</p>
+		{{if !keyword}}
+			<p style="color: #666;text-align: center;">github <a href="http://www.github.com/">jon-millent</a></p>
+			<p style="color: #666;text-align: center;">project github <a href="https://github.com/Jon-Millent/google-proxy">google-proxy</a></p>
+			<p style="color: #E00;text-align: center;">本程序供大家学习使用，勿用于商业和非法用途。</p>
+			<p style="color: #333;text-align: center;" class="millent">create by jon-millent</p>
+		{{/if}}
 	</div>
 	<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		window.artTemplate = {
+			keyword: '{{keyword}}'
+		}
+	</script>
 	<script type="text/javascript" src="/public/javascripts/index.js"></script>
 </body>
 </html>

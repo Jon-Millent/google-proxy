@@ -40,9 +40,9 @@
 	</div>
 
 	<div class="app" id="app" style="overflow-x: hidden;">
-		<p style="color: #E00;">本程序供大家学习使用，勿用于商业和非法用途。</p>
-		<p style="color: #666;">github <a href="http://www.github.com/">jon-millent</a></p>
-		<p style="color: #666;">project github <a href="https://github.com/Jon-Millent/google-proxy">google-proxy</a></p>
+		<p style="color: #666;text-align: center;">github <a href="http://www.github.com/">jon-millent</a></p>
+		<p style="color: #666;text-align: center;">project github <a href="https://github.com/Jon-Millent/google-proxy">google-proxy</a></p>
+		<p style="color: #E00;text-align: center;">本程序供大家学习使用，勿用于商业和非法用途。</p>
 		<p style="color: #333;text-align: center;" class="millent">create by jon-millent</p>
 	</div>
 	<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>

@@ -28,7 +28,7 @@ $(function() {
 			type: 'GET',
 			url: '/getGoogle',
 			data: {
-				keyword: value,
+				keyword: encodeURI(value),
 				start: artTemplate.start
 			},
 			success: function(data){

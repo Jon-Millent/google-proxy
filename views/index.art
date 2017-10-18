@@ -60,7 +60,8 @@
 	<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript">
 		window.artTemplate = {
-			keyword: '{{keyword}}'
+			keyword: '{{keyword}}',
+			start: '{{start}}'
 		}
 	</script>
 	<script type="text/javascript" src="/public/javascripts/index.js"></script>

@@ -46,6 +46,7 @@ body{
 	width: 100%;
 	padding-right: 110px;
 	border-radius: 6px;
+	font-size: 18px;
 }
 .search-header .search-wrap .search-button{
 	display: block;

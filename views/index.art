@@ -28,7 +28,7 @@
 		}
 
 		/* google hack */
-		.sfbgx,#searchform,#sfcnt,#top_nav,#navcnt{
+		.sfbgx,#searchform,#sfcnt,#top_nav{
 			display: none !important;
 		}
 	</style>

@@ -49,7 +49,7 @@
 	<div class="app" id="app" style="overflow-x: hidden;">
 		{{if !keyword}}
 			<p style="text-align: center;">
-				<img src="/public/images/google.png" style="max-width: 936px;width: 100%;padding: 0 10px;" alt="">
+				<img src="/public/images/home.jpg" style="max-width: 600px;width: 100%;padding: 0 10px;margin: 40px 0;border-radius: 30px;overflow: hidden;display: inline-block;" alt="">
 			</p>
 			<p style="color: #666;text-align: center;">github <a href="http://www.github.com/">jon-millent</a></p>
 			<p style="color: #666;text-align: center;">project github <a href="https://github.com/Jon-Millent/google-proxy">google-proxy</a></p>

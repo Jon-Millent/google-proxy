@@ -3,7 +3,7 @@
 
 ## 代理谷歌
 ### 此APP原理就是用一台可以访问谷歌的服务器把谷歌搜索服务代理出来。 
-##### <a href="http://google.thisummer.com" target="_blank">在线地址DEMO</a> (在线地址随时会关)
+##### <a href="http://guge.thisummer.com" target="_blank">在线地址DEMO</a> (在线地址随时会关)
 
 ## How to get started
 * clone project and cd project

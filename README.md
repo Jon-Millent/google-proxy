@@ -1,11 +1,15 @@
 # Google-Proxy
+
+<a href="https://github.com/Jon-Millent/google-proxy/blob/master/README.md">English</a>
+<a href="https://github.com/Jon-Millent/google-proxy/blob/master/zh-cn.md">中文</a>
+
 ![image](https://github.com/Jon-Millent/google-proxy/blob/master/images/google.png?raw=true)  
 
-## Why Google-Proxy?
+## Why Google-Proxy
 
 In China usually can not use Google search, due to the usual learning needs, developed their own application of Google search agent
 
-## How does this work?
+## How does this work
 
 ![image](https://github.com/Jon-Millent/google-proxy/blob/master/how.png?raw=true)
 
@@ -25,6 +29,6 @@ In China usually can not use Google search, due to the usual learning needs, dev
 <a href="http://guge.thisummer.com" target="_blank">Google-Proxy</a> Test address will be off at any time
 
 
-## about
+## About
 * This program for everyone to learn to use, not for commercial and illegal use.
 * MIT

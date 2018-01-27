@@ -1,12 +1,15 @@
 # Google-Proxy
 ![image](https://github.com/Jon-Millent/google-proxy/blob/master/images/google.png?raw=true)  
 
-## Why Google-Proxy
+## Why Google-Proxy?
 
 In China usually can not use Google search, due to the usual learning needs, developed their own application of Google search agent
 
+## How does this work?
 
-## <a href="http://guge.thisummer.com" target="_blank">在线地址DEMO</a> (在线地址随时会关)
+![image](https://github.com/Jon-Millent/google-proxy/blob/master/how.png?raw=true)
+
+##  <a href="http://guge.thisummer.com" target="_blank">在线地址DEMO</a> (在线地址随时会关)
 
 ## How to get started
 * clone project and cd project

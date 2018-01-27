@@ -1,9 +1,12 @@
-# Google-proxy
-<div align=center><img src="https://github.com/Jon-Millent/google-proxy/blob/master/images/google.png?raw=true" ></div>
+# Google-Proxy
+![image](https://github.com/Jon-Millent/google-proxy/blob/master/images/google.png?raw=true)  
 
-## 代理谷歌
-### 此APP原理就是用一台可以访问谷歌的服务器把谷歌搜索服务代理出来。 
-##### <a href="http://guge.thisummer.com" target="_blank">在线地址DEMO</a> (在线地址随时会关)
+## Why Google-Proxy
+
+In China usually can not use Google search, due to the usual learning needs, developed their own application of Google search agent
+
+
+## <a href="http://guge.thisummer.com" target="_blank">在线地址DEMO</a> (在线地址随时会关)
 
 ## How to get started
 * clone project and cd project

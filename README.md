@@ -9,14 +9,22 @@ In China usually can not use Google search, due to the usual learning needs, dev
 
 ![image](https://github.com/Jon-Millent/google-proxy/blob/master/how.png?raw=true)
 
-##  <a href="http://guge.thisummer.com" target="_blank">在线地址DEMO</a> (在线地址随时会关)
 
-## How to get started
-* clone project and cd project
+
+## How to use
+
+* clone project
 * `npm install` or `cnpm install`
 * `npm start` or `cd bin` and `pm2 start google-proxy`
 * Note: The default listens for port 3001
 
-### about
-* 本程序供大家学习使用，勿用于商业和非法用途。
-* 授权 MIT
+
+## Test address
+
+
+<a href="http://guge.thisummer.com" target="_blank">Google-Proxy</a> Test address will be off at any time
+
+
+## about
+* This program for everyone to learn to use, not for commercial and illegal use.
+* MIT

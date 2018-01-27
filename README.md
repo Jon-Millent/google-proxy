@@ -1,7 +1,8 @@
 # Google-Proxy
 
 <a href="https://github.com/Jon-Millent/google-proxy/blob/master/README.md">English</a>
-<a href="https://github.com/Jon-Millent/google-proxy/blob/master/zh-cn.md">中文</a>
+|
+<a href="https://github.com/Jon-Millent/google-proxy/blob/master/zh-cn.MD">中文</a>
 
 ![image](https://github.com/Jon-Millent/google-proxy/blob/master/images/google.png?raw=true)  
 

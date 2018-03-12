@@ -27,7 +27,7 @@ In China usually can not use Google search, due to the usual learning needs, dev
 ## Test address
 
 
-<a href="http://guge.thisummer.com" target="_blank">Google-Proxy</a> Test address will be off at any time
+<a href="#" target="_blank">Google-Proxy</a> Test address will be off at any time. closed.
 
 
 ## About
